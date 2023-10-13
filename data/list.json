@@ -1,0 +1,173 @@
+[
+    {
+        "name": "Walter White",
+        "age": "50",
+        "occupation": "Chemistry Teacher",
+        "image": "./assets/walter.jpeg",
+        "id": 0,
+        "mood": "bad",
+        "description": "Walter Hartwell White Sr. is the protagonist of Breaking Bad, portrayed by Bryan Cranston. Initially a mild-mannered chemistry teacher, he turns to cooking and selling methamphetamine after being diagnosed with terminal lung cancer to secure his family's financial future."
+    },
+    {
+        "name": "jesse Pinkman",
+        "age": "29",
+        "occupation": "Meth Manufacturer",
+        "image": "./assets/jesse.jpeg",
+        "id": 1,
+        "mood": "bad",
+        "description": "Jesse Bruce Pinkman is a former student of Walter White and a key character in Breaking Bad, played by Aaron Paul. He initially partners with Walter to cook and sell methamphetamine, later becoming entangled in the drug trade's dangerous world."
+    },
+    {
+        "name": "Hank Schrader",
+        "age": "40",
+        "occupation": "DEA Agent",
+        "image": "./assets/hank.jpeg",
+        "id": 2,
+        "mood": "good",
+        "description": "Henry R. Hank Schrader is a DEA agent and brother-in-law of Walter White, portrayed by Dean Norris. He is known for his tenacity in pursuing drug dealers and his personal investigation into the meth manufacturing operations in Albuquerque."
+    },
+    {
+        "name": "Skyler White",
+        "age": "42",
+        "occupation": "Bookkeeper",
+        "image": "./assets/skylar.png",
+        "id": 3,
+        "mood": "bad",
+        "description": "Skyler White is Walter White's wife, portrayed by Anna Gunn. Initially a stay-at-home mom, she later becomes involved in Walter's illegal activities. Her character experiences significant moral conflict and personal growth throughout the series."
+    },
+    {
+        "name": "gustavo Fring",
+        "age": "50",
+        "occupation": "Drug Kingpin",
+        "image": "./assets/fring.png",
+        "id": 4,
+        "mood": "bad",
+        "description": "Gustavo Fring is a calculated drug kingpin, portrayed by Giancarlo Esposito. He owns the fast-food chain Los Pollos Hermanos, which serves as a front for his drug distribution network. He is known for his calm demeanor and meticulous planning."
+    },
+    {
+        "name": "Saul goodman",
+        "age": "50",
+        "occupation": "Lawyer",
+        "image": "./assets/saul.png",
+        "id": 5,
+        "mood": "bad",
+        "description": "Saul Goodman, born James Morgan \"Jimmy\" McGill, is a colorful lawyer portrayed by Bob Odenkirk. He assists various characters in their legal matters, often resorting to morally questionable methods."
+    },
+    {
+        "name": "mike ehrmantraut",
+        "age": "58",
+        "occupation": "Fixer",
+        "image": "./assets/mike.png",
+        "id": 6,
+        "mood": "bad",
+        "description": "Mike Ehrmantraut, portrayed by Jonathan Banks, is a former police officer turned enforcer and fixer for various criminal organizations. He is known for his professionalism and pragmatic approach to problem-solving."
+    },
+    {
+        "name": "tuco Salamanca",
+        "age": "32",
+        "occupation": "Drug Distributor",
+        "image": "./assets/tuco.webp",
+        "id": 7,
+        "mood": "bad",
+        "description": "Tuco Salamanca, played by Raymond Cruz, is a violent and unpredictable drug distributor associated with the Salamanca cartel. He has a reputation for brutality and impulsiveness."
+    },
+    {
+        "name": "Hector Salamanca",
+        "age": "67",
+        "occupation": "Cartel Member",
+        "image": "./assets/hector.webp",
+        "id": 8,
+        "mood": "bad",
+        "description": "Hector Salamanca, portrayed by Mark Margolis, is a former high-ranking member of the Salamanca cartel. He communicates using a bell due to his paralysis and is a key figure in the cartel's operations."
+    },
+    {
+        "name": "jane margolis",
+        "age": "26",
+        "occupation": "Tattoo Artist",
+        "image": "./assets/jane.webp",
+        "id": 9,
+        "mood": "good",
+        "description": "Jane Margolis, played by Krysten Ritter, is Jesse Pinkman's landlord, lover, and fellow drug user. Her relationship with Jesse has a significant impact on his character and choices."
+    },
+    {
+        "name": "andrea Cantillo",
+        "age": "28",
+        "occupation": "Single Mother",
+        "image": "./assets/Andrea1.webp",
+        "id": 10,
+        "mood": "good",
+        "description": "Andrea Cantillo, portrayed by Emily Rios, is a recovering drug addict and single mother. She becomes romantically involved with Jesse Pinkman, leading to tragic consequences."
+    },
+    {
+        "name": "gale Boetticher",
+        "age": "35",
+        "occupation": "Chemist",
+        "image": "./assets/gale.webp",
+        "id": 11,
+        "mood": "bad",
+        "description": "Gale Boetticher, played by David Costabile, is a talented chemist hired by Gustavo Fring to produce high-quality methamphetamine. He becomes an essential part of the drug operation."
+    },
+    {
+        "name": "lydia rodarte quayle",
+        "age": "38",
+        "occupation": "Businesswoman",
+        "image": "./assets/lydia.webp",
+        "id": 12,
+        "mood": "bad",
+        "description": "Lydia Rodarte-Quayle, portrayed by Laura Fraser, is a cautious and business-oriented figure in the drug trade. She coordinates the distribution of blue meth and has connections to various criminal organizations."
+    },
+    {
+        "name": "todd Aquist",
+        "age": "23",
+        "occupation": "Laboratory Assistant",
+        "image": "./assets/todd.webp",
+        "id": 13,
+        "mood": "bad",
+        "description": "Todd Alquist, played by Jesse Plemons, is a meticulous and polite laboratory assistant who becomes entangled in Walter White's drug operation. His actions have significant consequences for the characters."
+    },
+    {
+        "name": "Skinny Pete",
+        "age": "32",
+        "occupation": "Musician",
+        "image": "./assets/pete.webp",
+        "id": 14,
+        "mood": "bad",
+        "description": "Skinny Pete, portrayed by Charles Baker, is a close friend of Jesse Pinkman known for his musical talents and involvement in the drug trade. He provides a comedic and supportive presence in the series."
+    },
+    {
+        "name": "Badger mayhew",
+        "age": "30",
+        "occupation": "Street Dealer",
+        "image": "./assets/badger.webp",
+        "id": 15,
+        "mood": "bad",
+        "description": "Badger Mayhew, portrayed by Matt L. Jones, is a friend of Jesse Pinkman and is involved in street-level drug dealing. He provides comic relief throughout the series."
+    },
+    {
+        "name": "tortuga",
+        "age": "43",
+        "occupation": "Cartel Informant",
+        "image": "./assets/torguga.webp",
+        "id": 17,
+        "mood": "bad",
+        "description": "Tortuga, portrayed by Danny Trejo, is an informant for the Juarez Cartel. His association with law enforcement leads to a gruesome fate."
+    },
+    {
+        "name": "Walter jr White",
+        "age": "17",
+        "occupation": "Student",
+        "image": "./assets/jr.jpeg",
+        "id": 18,
+        "mood": "good",
+        "description": "Walter \"Flynn\" White Jr. is the teenage son of Walter White and Skyler White, portrayed by RJ Mitte. He faces challenges related to his cerebral palsy and navigates his parents' increasingly complex lives."
+    },
+    {
+        "name": "Steven gomez",
+        "age": "40",
+        "occupation": "DEA Agent",
+        "image": "./assets/gomez.webp",
+        "id": 19,
+        "mood": "good",
+        "description": "Steven Gomez is a DEA agent and partner of Hank Schrader, portrayed by Steven Michael Quezada. He is dedicated to law enforcement and supports Hank in his investigations."
+    }
+]

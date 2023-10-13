@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple view</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/index.js" type="module"></script>
+</head>
+<body>
+
+  <!-- Search field -->
+    <h1>Characters</h1>
+
+    <div class="search-field">
+        <select name="category" id="category">
+            <option value="name">Name</option>
+            <option value="occupation">Occupation</option>
+        </select>
+        <input type="search" name="search" id="search" placeholder="Search for characters..">
+        
+    </div>
+
+    <div class="filter-btn"><button class="fil-btn">Filter</button></div>
+
+    <!-- Filters -->
+    <div class="filter hidden">
+
+
+    <!-- range -->  
+    <div class="range">
+        <p>Age</p>
+        <div class="range-price">      
+            <div>
+                <input type="text" name="min" value="0" readonly>   
+            </div>   
+            <p>&#8594;</p>
+           <div>
+                <input type="text" name="max" value="100" readonly> 
+           </div>     
+          </div>
+        <div class="range-slider">
+          <span class="range-selected"></span>
+        </div>
+        <div class="range-input">
+          <input type="range" class="min" min="0" max="100" value="0" step="1">
+          <input type="range" class="max" min="0" max="100" value="100" step="1">
+        </div>
+      </div> 
+
+      <p class="good">Person</p>
+      <div class="radiobtn">
+        
+        <div>
+          <input class="radio" type="radio" id="all" name="all" value="all">
+      <label for="all">Doesn't matter</label>
+        </div>
+    <div>
+      <input class="radio" type="radio" id="good" name="all" value="good">
+      <label for="good">Good</label>
+    </div>
+    <div>
+      <input class="radio" type="radio" id="bad" name="all" value="bad">
+      <label for="bad">Broke bad</label>
+    </div>
+      </div>
+
+      
+    </div>
+
+   <div class="list-container">
+
+   </div>
+
+   <footer>Images by <a class="footer-a" href="https://www.freepik.com/free-vector/variety-colorful-avatars_766438.htm#query=people%20avatar%20square&position=0&from_view=search&track=ais">Freepik</a></footer>
+
+</body>
+</html>

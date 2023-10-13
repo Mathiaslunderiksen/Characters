@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* CSS RESET START */
+
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+
+html {
+font-family: 'Roboto', sans-serif;
+font-size: 0.625rem;
+
+}
+
+
+body {
+font-size: 1.6rem;
+
+background-image: url("../assets/back2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* CSS RESET END */
+
+h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 120px;
+    color: green;
+    font-family: 'Heart Breaking Bad';
+}
+
+.list-container{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.single-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+img{
+    width: auto;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.good{
+    margin-top: 5px;
+    margin-bottom: -20px;
+}
+
+.heading{
+    margin-top: 20px;
+    font-size: 60px;
+    font-family: 'Heart Breaking Bad';
+    color: green;
+}
+
+.occupation{
+    font-size: 20px;
+}
+
+.description{
+    width: 30%;
+}
+
+.list-div{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+    margin-top: 50px;
+    gap: 20px;
+    box-shadow: 0px 0px 10px rgb(69, 69, 69);
+    border-radius: 10px;
+    background: rgba(47, 72, 47, 0.6)
+}
+
+.btn{
+    width: 200px;
+    text-decoration: none;
+    padding: 10px 50px;
+    background-color: rgb(210, 150, 29);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn:hover{
+    background-color: green;
+}
+
+.search-field{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#category{
+    width: 100px;
+    padding: 10px 10px;
+    border: none;
+    background-color: darkcyan;
+    border-radius: 5px;
+    color: white;
+}
+
+#category:hover{
+    cursor: pointer;
+}
+
+#search{
+    width: 300px;
+    padding: 10px 10px;
+    border: none;
+    background-color: darkcyan;
+    border-radius: 5px;
+    color: white;
+}
+
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+#search:focus{
+    outline: none;
+}
+
+.filter{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.filter-btn, .clearfilter-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fil-btn:hover, .clearfil-btn{
+    cursor: pointer;
+}
+
+.filter-btn button, .clearfilter-btn button{
+    width: 110px;
+    margin-top: 20px;
+    padding: 5px 0px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(210, 150, 29);
+    color: white;
+    font-size: 17px;
+}
+
+label{
+    color: white;
+}
+
+.filter-btn button:hover, .clearfilter-btn button:hover{
+    background-color: green;
+    color: rgb(210, 150, 29);
+}
+
+.radiobtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+/* Slider */
+
+.range{
+    padding-top: 20px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.range p {
+    text-align: center;
+}
+
+.range-price{
+   
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    gap: 20px
+}
+
+.range-price input{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    border-radius: 1000px;
+    background-color: darkcyan;
+    color: white;
+
+}
+
+.range-slider {
+    margin-top: 20px;
+    height: 5px;
+    position: relative;
+    background-color: #e1e9f6;
+    border-radius: 2px;
+  }
+  .range-selected {
+    height: 100%;
+    left: 0%;
+    right: 0%;
+    position: absolute;
+    border-radius: 5px;
+    background-color: darkcyan;
+  }
+
+  .range-input {
+    position: relative;
+  }
+  .range-input input {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    top: -7px;
+    background: none;
+    pointer-events: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  .range-input input::-webkit-slider-thumb {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 3px solid rgb(210, 150, 29);
+    background-color: #fff;
+    pointer-events: auto;
+    -webkit-appearance: none;
+  }
+  .range-input input::-moz-range-thumb {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 3px solid rgb(210, 150, 29);
+    background-color: #fff;
+    pointer-events: auto;
+    -moz-appearance: none;
+  }
+  
+  
+  input[type="radio"] {
+    display: none; /* Hide the default radio input */
+  }
+  
+  /* Style the custom radio indicators */
+  input[type="radio"] + label::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgb(210, 150, 29);
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  
+  /* Style the custom radio indicators when selected */
+  input[type="radio"]:checked + label::before {
+    background-color: white;
+    border-color: rgb(210, 150, 29);
+  }
+  
+  /* Optional: Style the label text */
+  label {
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .footer-a{
+    color: white;
+    text-decoration: underline;
+  }
+  
+
+  .hidden{
+    display: none;
+  }
+
+
+
+  
+
+@media (max-width: 1000px){
+    .list-div{
+        width: 100%;
+    }
+
+    .description{
+        width: 60%;
+    }
+}
